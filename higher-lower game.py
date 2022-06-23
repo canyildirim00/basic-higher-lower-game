@@ -19,10 +19,10 @@ while game_on:
         print("Only numbers between 1 and 100 allowed")
     else:
         if user_guess == machine_guess:
+            print("Congrats, you win the game! ")
             mixer.init()
             mixer.music.load("tada-fanfare-a-6313.mp3")
             mixer.music.play()
-            print("Congrats, you win the game! ")
             while mixer.music.get_busy():
                 time.sleep(0.0001)
             game_on = False
