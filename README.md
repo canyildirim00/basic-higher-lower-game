@@ -1,1 +1,1 @@
-# basic-higher-lower-game
+This basic higher-lower game includes sound effects. Enjoy playing!
